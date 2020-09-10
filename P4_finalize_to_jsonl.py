@@ -3,7 +3,7 @@ import jsonlines
 from tqdm import tqdm
 
 chunks = pd.read_csv(
-    "data/collated_header_cleaned_dataset.csv", chunksize=10000, nrows=None,
+    "data/collated_header_cleaned_dataset.csv", chunksize=25000, nrows=None,
 )
 
 
@@ -15,6 +15,10 @@ def data_iter():
                 "meta": {"APPLICATION_ID": row["APPLICATION_ID"]},
                 "text": row["ABSTRACT_TEXT"],
             }
+
+            if not isinstance(item['text'], str):
+                continue
+            
             yield item
 
 
