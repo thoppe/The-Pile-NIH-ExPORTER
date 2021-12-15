@@ -9,7 +9,7 @@ Light preprocessing is applied to remove extra spaces and [repeated header text]
 ### Pile-V2 Statistics
 
     ✔ Saved to data/NIH_ExPORTER_awarded_grant_text.jsonl.zst
-    ℹ Date collection completed: 12/14/2021
+    ℹ Collection completed 12/14/2021
     ℹ 985,651 applications (45,983 added, 4.9% growth)
     ℹ Uncompressed filesize 2,198,670,684
     ℹ Compressed filesize     664,022,839
