@@ -1,8 +1,8 @@
 from pathlib import Path
-import requests
+import time
 from wasabi import msg
 import bs4
-import time
+import requests
 from dspipe import Pipe
 
 url_exporter = "https://exporter.nih.gov/ExPORTER_Catalog.aspx?sid=0&index=1"
