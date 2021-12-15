@@ -3,3 +3,4 @@ lxml       # Needed for better html parsing
 requests   # Pulling data from the internet
 dspipe     # custom module to help with data pipelines
 wasabi     # colored command-line logging
+jsonlines  # Helps to work with ndjson data, the format of the pile
