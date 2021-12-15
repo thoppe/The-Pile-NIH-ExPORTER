@@ -1,4 +1,3 @@
-from pathlib import Path
 import time
 from wasabi import msg
 import bs4

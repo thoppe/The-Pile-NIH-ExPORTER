@@ -1,4 +1,3 @@
-from pathlib import Path
 import requests
 from wasabi import msg
 import bs4
